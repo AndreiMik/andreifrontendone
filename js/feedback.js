@@ -42,20 +42,20 @@ button_message.disabled = true;
 
 $("#name_input").focusout(function () {
     check_name();
-    alert(ok);
+  //  alert(ok);
 });
 $("#phone_input").focusout(function () {
     check_phone();
-    alert(ok);
+ //   alert(ok);
 });
 $("#email_input").focusout(function () {
     check_email();
-    alert(ok);
+ //   alert(ok);
 });
 
 $("#message_text").focusout(function () {
     check_message();
-    alert(ok);
+ //   alert(ok);
 });
 
 
