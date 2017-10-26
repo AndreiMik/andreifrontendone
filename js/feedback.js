@@ -197,11 +197,11 @@ function show_submenu() {
     }, 7000);
     setTimeout(function () {
         //     location.reload();
-        menu.style.background = null;
-        submenu_1.style.display = null;
-        household.style.background = null;
-        submenu_2.style.display = null;
-        dishwasher.style.background = null;
+        menu.style.background = "";
+        submenu_1.style.display = "";
+        household.style.background = "";
+        submenu_2.style.display = "";
+        dishwasher.style.background = "";
     }, 7000);
     count = 1;
     sessionStorage.setItem("count", count);
